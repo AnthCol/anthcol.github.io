@@ -3,5 +3,6 @@ description: This is a website containing information about me as a person, and 
 theme: minima
 
 permissions:
+  pages: read | write 
   contents: read
   pull-requests: write
