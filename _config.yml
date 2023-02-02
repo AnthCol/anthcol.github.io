@@ -1,3 +1,7 @@
 title: Anthony Colaiacovo - Personal Website
 description: This is a website containing information about me as a person, and my skills as a software developer. 
 theme: minima
+
+permissions:
+  contents: read
+  pull-requests: write
