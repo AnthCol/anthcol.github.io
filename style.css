@@ -1,15 +1,77 @@
+
+/*  Basic Stuff  */ 
+
 body {
-    background-color: gray; 
+    background-color: darkolivegreen; 
 }
+
 h1{
-    font-weight: 100;
-    font-family: 'Courier New', Courier, monospace;
-    color: white; 
-    text-align: center;
+    font-size: 37px; 
+    font-weight: 200; 
+    font-family: Garamond, 'Times New Roman', Times; 
+    color: antiquewhite; 
+    text-align: center; 
+   /* text-decoration: underline; 
+    text-decoration-thickness: 0.5px;  */
 }
+
 p{
+    font-size: 18px; 
     font-weight: 100;
-    font-family: 'Courier New', Courier, monospace;
-    color: white; 
+    font-family: Garamond, 'Times New Roman', Times; 
+    color: antiquewhite; 
     text-align: left;
+}
+
+
+/*  Navbar stuff  */
+
+navbar{
+    margin: 0 auto; 
+    display: flex; 
+    position: relative; 
+    overflow: hidden; 
+    
+
+    font-weight: 100; 
+    font-family: Garamond, 'Times New Roman', Times; 
+    color: blanchedalmond; 
+    background-color: blanchedalmond; 
+    text-align: center; 
+}
+
+.navbar a{
+    display: inline-block; 
+    margin: auto; 
+    position: relative; 
+    float: none; 
+    text-align: center; 
+    padding: 10px 14px; 
+    font-size: 18px; 
+    background-color: blanchedalmond;
+    color: darkolivegreen; 
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: darkkhaki;
+    color: darkolivegreen; 
+    text-decoration: none; 
+}
+
+.navbar a.active{
+    background-color: beige;
+    color: darkolivegreen; 
+    text-decoration: none; 
+}
+
+@media screen and (max-width: 600px){
+    .navbar a{
+        float: none; 
+        display: block; 
+        position: relative; 
+        top: 0; 
+        left: 0; 
+        transform: none; 
+    }
 }
