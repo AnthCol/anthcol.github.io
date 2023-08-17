@@ -22,6 +22,16 @@ p{
     color: antiquewhite; 
     text-align: left;
 }
+li{
+    font-size: 18px; 
+    font-weight: 100; 
+    font-family: Garamond, 'Times New Roman', Times; 
+    color: antiquewhite; 
+    text-align: left; 
+}
+h3{
+    color: antiquewhite; 
+}
 
 
 /*  Navbar stuff  */
@@ -39,6 +49,14 @@ navbar{
     background-color: blanchedalmond; 
     text-align: center; 
 }
+
+a{
+    color: lightcoral; 
+}
+a:hover{
+    color: aquamarine
+}
+
 
 .navbar a{
     display: inline-block; 
