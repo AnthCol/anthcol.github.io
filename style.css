@@ -1,0 +1,36 @@
+.mainDiv {
+    text-align: center; 
+}
+.pageLink {
+    text-decoration: none;
+    color: #551A8B;
+}
+
+.pageLink:hover {
+    text-decoration: underline;
+}
+
+.pageLink:visited {
+    color: #551A8B; 
+}
+
+
+h1 {
+    font-size: 50px; 
+    margin: 30px; 
+}
+
+p {
+    font-size:16px; 
+    text-align: left; 
+    padding-left: 30%; 
+    padding-right: 30%; 
+}
+
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 18px; 
+    color: rgb(236, 228, 217); 
+    background-color: rgb(160, 160, 74); 
+}
