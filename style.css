@@ -1,0 +1,45 @@
+body {
+    max-width: 850px;
+    margin: 80px auto;
+    padding: 20px;
+    font: 16px/1.6 Arial, sans-serif;
+    color: #222;
+}
+
+nav {
+    margin-bottom: 80px;
+}
+
+nav a {
+    margin-right: 20px;
+    color: #777;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+h1 {
+    font: 42px Georgia, serif;
+    margin-bottom: 5px;
+}
+
+.gray {
+    color: #777;
+}
+
+img {
+    width: 100%;
+    margin: 40px 0 10px;
+}
+
+a {
+    color: #222;
+}
+
+footer {
+    margin-top: 80px;
+    color: #999;
+    font-size: 14px;
+}
